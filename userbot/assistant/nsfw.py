@@ -80,7 +80,7 @@ async def chg_of_decision_(event: CallbackQuery):
     try:
         await event.edit(
             text="**ARE YOU OLD ENOUGH FOR THIS ?**",
-            file="https://telegra.ph/file/c4484ad9265d4491f1c01.jpg",
+            file="https://telegra.ph/file/6b94cd84113f2de71d70e.jpg",
             buttons=buttons,
         )
     except MessageNotModifiedError:
