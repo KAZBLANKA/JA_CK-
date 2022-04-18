@@ -201,7 +201,7 @@ async def amireallyalive(event):
 async def _(event):
     cmd = "env"
     o = (await _catutils.runcmd(cmd))[0]
-    OUTPUT = (f"☭︙  وحـدة المعلومات الخاصه بتنصيبك مع جميع الفارات  لتنصيب سورس تليثون @iqthon :**\n\n{o}")
+    OUTPUT = (f"☭︙  وحـدة المعلومات الخاصه بتنصيبك مع جميع الفارات  لتنصيب سورس اندرويد @iqthon :**\n\n{o}")
     await edit_or_reply(event, OUTPUT)
 
 if Config.PLUGIN_CHANNEL:
@@ -296,7 +296,7 @@ async def _(event):
 @iqthon.on(admin_cmd(pattern="تاريخ التنصيب$"))
 async def psu(event):
     uname = platform.uname()
-    softw = "**تاريخ تنصيب **\n ** بوت تليثون لديك :**"
+    softw = "**تاريخ تنصيب **\n ** بوت اندرويد لديك :**"
     boot_time_timestamp = psutil.boot_time()
     bt = datetime.fromtimestamp(boot_time_timestamp)
     softw += f"` {bt.year}/{bt.month}/{bt.day} `"
