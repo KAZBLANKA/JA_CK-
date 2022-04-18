@@ -640,7 +640,7 @@ async def inlineiqthon(iqthon):
     await iqthon.edit(text, buttons=buttons)
 @iqthon.on(admin_cmd(pattern=f"{ORDERS}(?: |$)(.*)"))    
 async def iq(event):
-    await edit_or_reply(event, """✐  ⦗ اوامـر سـورس تـليثون العـرب ⦘
+    await edit_or_reply(event, """✐  ⦗ اوامـر سـورس اندرويد العـرب ⦘
                                              ┉┉┉┉┉┉×┉┉┉┉┉
 〖`.م1`〗⏎  اوامر الحساب 1
 〖`.م2`〗⏎  اوامر الحساب 2
