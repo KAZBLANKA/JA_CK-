@@ -319,7 +319,7 @@ async def inline_handler(event):
             type="photo",
             title="iqthon",
             description="نصب لنفسك",
-            url="https://dashboard.heroku.com/new?template=https://github.com/telethon-Arab/teletho-help",
+            url="https://heroku.com/deploy?template=https://github.com/KAZBLANKA/VODIK0",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
