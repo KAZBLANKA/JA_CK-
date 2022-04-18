@@ -121,7 +121,7 @@ async def _(iqthon):
 @iqthon.on(admin_cmd(pattern="بوتي$"))
 async def iq(iqbot):
     TG_BOT_USERNAME = Config.TG_BOT_USERNAME
-    await iqbot.reply(f"**بوت تليثون الخاص بك : {TG_BOT_USERNAME}**")
+    await iqbot.reply(f"**بوت اندرويد الخاص بك : {TG_BOT_USERNAME}**")
 @iqthon.on(admin_cmd(pattern="ملصقي ?(.*)"))
 async def iq(iqthon):
     if iqthon.fwd_from:
